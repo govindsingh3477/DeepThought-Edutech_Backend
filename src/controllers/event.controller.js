@@ -12,7 +12,7 @@ const getEventById = asyncHandler(async(req,res)=>{
             throw new ApiError(400, "Invalid eventId ID");
           }
         const event = await queryDocumentById("events",eventId);
-        console.log(event)
+        // console.log(event)
        return  res.status(200).json(event)
     } catch (error) {
         console.log(error);
