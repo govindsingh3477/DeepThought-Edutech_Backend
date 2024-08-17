@@ -1,10 +1,9 @@
-# Campus Connect Backend API
+# Event Management API
 
-Welcome to the Campus Connect Backend API repository. For detailed installation instructions, please refer to the Installation Guide.
+This is a simple backend API for managing events using Node.js, Express, and MongoDB. The API provides endpoints to create, read, update, and delete events.
 
 ## Overview
-
-This repository contains the backend API for the Campus Connect project. The API is built using Node.js and Express, and it connects to a MongoDB database. It also utilizes Socket.IO for real-time communication and other technologies to enhance functionality.
+ The API is built using Node.js and Express, and it connects to a MongoDB database. It also utilizes Socket.IO for real-time communication and other technologies to enhance functionality.
 
 ## Technologies Used
 
